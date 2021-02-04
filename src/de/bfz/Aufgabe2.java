@@ -20,7 +20,7 @@ public class Aufgabe2 {         // laut aufgabenstellung CharCount, aber das pas
 			}		
 		}
 		System.out.println("Das Zeichen " + c + " kommt " + count + " Mal vor.");
-	}
+    }
 }
 
 
