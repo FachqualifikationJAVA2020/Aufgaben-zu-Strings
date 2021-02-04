@@ -18,13 +18,21 @@ public class Aufgabe2 {
         // Scanner eingabe schließen
         eingabe.close();
 
+        // CharCounter
         int charCount = 0;
+
+        // Char position aus String festlegen
         char c = sc.charAt(0);
+
+        // for-Schleife zum duschsuchen des String
         for (int i = 0; i < s.length(); i++){
             if(s.charAt(i) == c) {
+                // Wenn der char im String gefunden wurde, Counter +1
                 charCount = charCount + 1;
             }
         }
+
+        // Ausgabe des Counter
         System.out.println("Gefundene Zeichen: " + charCount);
 
 
